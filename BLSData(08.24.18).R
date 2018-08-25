@@ -1,7 +1,9 @@
 # TED: The Economics Daily (BLS) 08.24.18
 # https://www.bls.gov/opub/ted/home.htm
 # Employment up 12.6 percent over the year in Midland County, Texas, March 2018
-# Data taken from website and cleaned in Excel 
+
+# Data imported and cleaned in Excel 
+# Filename: Q1Wages_Emply(8.24.18).xlsx
 
 # file name along with columns being used
 # "c" stands for columns 
