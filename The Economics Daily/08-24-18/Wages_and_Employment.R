@@ -6,7 +6,7 @@
 # Filename: Q1Wages_Emply(8.24.18).xlsx
 
 # file name along with columns being used
-# "c" stands for columns 
+# "c" stands for combine or concatenate
 
 input <- Q1Wages_Emply2[,c('PchangeM1718','PchangewageQ11718')]
 
