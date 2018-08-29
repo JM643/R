@@ -13,3 +13,6 @@ barplot(i, main = "Work-related musculoskeletal disorders resulting in days away
         in selected occupations by part of body, all ownerships, 2016", 
         col = c("yellow", "red", "purple", "orange", "dark gray", "blue", "green"), horiz = TRUE, 
         beside = FALSE, legend = rownames(i))
+
+
+# This code is incomplete. I will have to revisit it to add legend and y-axis labels. 
