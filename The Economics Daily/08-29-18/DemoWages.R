@@ -3,7 +3,7 @@
 # Asian women and men earned more than their White, Black, and Hispanic counterparts in 2017
 
 # Data imported and cleaned in Excel 
-# Filename: DemoWages(08.29.18).xlsx
+# Filename: DemoWages.xlsx
 
 # create matrix
 demo_data <- rbind(DemoWages$Women, DemoWages$Men)
