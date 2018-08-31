@@ -1,3 +1,10 @@
+# TED: The Economics Daily (BLS) 08.31.18
+# https://www.bls.gov/opub/ted/home.htm
+# Nonprofits account for 12.3 million jobs, 10.2 percent of private sector employment, in 2016
+
+# Data imported and cleaned in Excel 
+# Filename: npjobs.xlsx
+
 library(ggplot2)
 
 usmap::plot_usmap(data = npjobs, values = "nonprofit%", lines = "black") +
