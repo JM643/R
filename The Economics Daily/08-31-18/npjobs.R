@@ -6,10 +6,11 @@
 # Filename: npjobs.xlsx
 
 library(ggplot2)
+library(scales)
 
 usmap::plot_usmap(data = npjobs, values = "nonprofit%", lines = "black") +
   scale_fill_continuous( 
-    low = "palegreen1", high = "mediumblue", name = "Percentage of total private employment", 
+    low = "palegreen1", high = "mediumblue", name = "Nonprofit employment as a percentage of total", 
     labels = percent (0.04 * 0:5)) + 
   theme(plot.title = element_text(face = "bold", size = (15))) + 
   theme(plot.title = element_text(hjust = 0.5)) + 
@@ -20,5 +21,4 @@ usmap::plot_usmap(data = npjobs, values = "nonprofit%", lines = "black") +
   theme(legend.title = element_text(face = "bold")) + 
   theme(legend.justification = "center") +
   ggtitle("Nonprofit employment as a percentage of total private employment, 2016") + 
-  labs(color = "Percentage of total private employment") 
-
+  labs(color = "Nonprofit employment as a percentage of total") 
