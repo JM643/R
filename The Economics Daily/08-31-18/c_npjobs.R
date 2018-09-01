@@ -6,7 +6,7 @@
 # Filename: c_npjobs.xlsx
 
 # create matrix
-a <- rbind(jobs$nemploy, jobs$county)
+a <- rbind(c_npjobs$nemploy, c_cnpjobs$county)
 
 # change margins so that text on y-axis can fit
 par(mar=c(3,11,3,1))
