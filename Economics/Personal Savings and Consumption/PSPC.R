@@ -1,6 +1,8 @@
 # Personal Savings and Real Personal Consumption Expenditures 
 # https://fred.stlouisfed.org/series/PSAVERT#0
 # https://fred.stlouisfed.org/series/DPCCRL1Q225SBEA#0
+# Three Sheets must be imported into the Global Environment 
+# PSPC.xls
 
 library(ggplot2)
 theme_set(theme_bw())
