@@ -12,12 +12,13 @@ ggplot(data = SchoolEmply, aes(Occupation, Employment)) +
  coord_flip() +
   labs(title = "Employment of teachers and instructors in elementary and secondary\n schools, May 2017",
        caption = "Source: U.S. Bureau of Labor Statistics",
-       x = " ") + # remove y-axis label
+       x = " ") + # remove y axis label
   # remove and manual add  axis ticks 
-  scale_x_discrete(labels = c("Self-enrichment education teachers", "Adult basic and secondary education and\n literacy teachers and instructors", "Instructional coordinators", "Teachers and instructors, all other, except\n substitute teachers", "Preschool and kindergarten teachers", "Special education teachers", "Substitute teachers", "Teacher assistants", "Secondary school teachers", "Elementary and middle school teachers")) + 
+  scale_x_discrete(labels = c("Self-enrichment education teachers", "Adult basic and secondary education and\n literacy teachers and instructors", 
+                              "Instructional coordinators", "Teachers and instructors, all other, except\n substitute teachers", "Preschool and kindergarten teachers", 
+                              "Special education teachers", "Substitute teachers", "Teacher assistants", "Secondary school teachers", "Elementary and middle school teachers")) + 
   # add commas to indicate thousands and millions
   scale_y_continuous(label = comma) 
-
 
 
 
