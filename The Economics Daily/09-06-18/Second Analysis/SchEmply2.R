@@ -1,7 +1,8 @@
+# TED: The Economics Daily (BLS) 09.06.18
 # Largest occupations in elementary and secondary schools, excluding teachers and instructors, May 2017
-# SchEmply2.xlsx
-# README2.doc
 # https://www.bls.gov/opub/ted/2018/a-look-at-elementary-and-secondary-school-employment.htm#bls-print
+# Data imported and cleaned in Excel 
+# Filename: SchoolEmply2.xlsx
 
 library(ggplot2)
 library(scales)
