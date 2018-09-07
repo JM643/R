@@ -16,4 +16,4 @@ ggplot(data = SchoolEmply, aes(Occupation, Employment)) +
 
 
 
-# still working on how to adjust the y-axis ticks and margins
+# still working on how to adjust the y-axis ticks, margins and numbers on x-axis (commas)
