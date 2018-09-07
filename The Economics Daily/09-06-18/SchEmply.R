@@ -1,5 +1,8 @@
-# A look at elementary and secondary school employment
+# TED: The Economics Daily (BLS) 09.06.18
 # https://www.bls.gov/opub/ted/2018/a-look-at-elementary-and-secondary-school-employment.htm#bls-print
+# Data imported and cleaned in Excel 
+# Filename: DemoWages.xlsx
+
 
 library (ggplot2)
 library(scales)
