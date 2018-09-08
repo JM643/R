@@ -20,7 +20,7 @@ data.m <- melt(df, id.vars = 'School')
 ggplot(data.m, aes(x = School, y = as.numeric(value))) + # as.number changes column to numeric from character 
   geom_bar(aes(fill = variable), stat = "identity", position = position_dodge(width = 0.65), width = 0.5) +
   labs(title = "Percent of teachers with education, training, and experience requirements, 2017",
-       caption = "U.S. Bureau of Labor Statistics",
+       caption = "Source: U.S. Bureau of Labor Statistics",
        y = " ", # removes y-axis label
        x = " ") + # removes x-axis label
   theme(legend.title = element_blank()) + # removes legend title
