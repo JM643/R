@@ -4,7 +4,6 @@
 # Data imported and cleaned in Excel 
 # Filename: nonfarm_pro.xlsx
 
-
 library(ggplot2)
 library(scales)
 theme_set(theme_light())
