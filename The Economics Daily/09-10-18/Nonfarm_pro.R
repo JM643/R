@@ -1,7 +1,6 @@
 # TED: The Economics Daily (BLS) 09.10.18
-# https://www.bls.gov/opub/ted/home.htm
+# https://www.bls.gov/opub/ted/2018/nonfarm-business-labor-productivity-up-2-point-9-percent-in-second-quarter-of-2018.htm#bls-print
 # Percent change in hours worked, output, and productivity, nonfarm business sector, first quarter 2008–second quarter 2018, seasonally adjusted
-
 # Data imported and cleaned in Excel 
 # Filename: nonfarm_pro.xlsx
 
