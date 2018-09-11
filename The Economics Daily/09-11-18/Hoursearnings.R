@@ -1,3 +1,9 @@
+# TED: The Economics Daily (BLS) 09.10.18
+# https://www.bls.gov/opub/ted/2018/average-hourly-earnings-for-employees-on-private-payrolls-up-2-point-9-percent-for-year-ended-august-2018.htm
+# 12-month percent change in employment and average hourly earnings by industry for all employees on private nonfarm payrolls, August 2017 to August 2018, seasonally adjusted
+# Data imported and cleaned in Excel 
+# Filename: hourearnings.xlsx
+
 library(ggplot2)
 library(scales)
 theme_set(theme_bw())
