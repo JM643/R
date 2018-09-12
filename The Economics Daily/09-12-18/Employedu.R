@@ -1,3 +1,10 @@
+
+# TED: The Economics Daily (BLS) 09.12.18
+# https://www.bls.gov/opub/ted/2018/unemployment-rate-2-1-percent-for-college-grads-3-9-percent-for-high-school-grads-in-august-2018.htm
+# Unemployment rates for persons 25 years and older by educational attainment, August 2008 to August 2018, seasonally adjusted
+# Data imported and cleaned in Excel 
+# Filename: employedu.xlsx
+
 library(ggplot2)
 library(scales)
 theme_set(theme_bw())
