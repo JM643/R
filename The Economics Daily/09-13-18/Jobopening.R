@@ -1,5 +1,8 @@
+# TED: The Economics Daily (BLS) 09.13.18
 # Total number of job openings, July 2003 to July 2018, seasonally adjusted
 # https://www.bls.gov/opub/ted/2018/number-of-job-openings-reached-6-point-9-million-in-july-2018.htm
+# Data imported and cleaned in Excel 
+# Filename: jobopening.xlsx
 
 library(ggplot2)
 theme_set(theme_bw())
