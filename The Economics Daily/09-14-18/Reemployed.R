@@ -8,8 +8,7 @@ library(ggplot2)
 library(reshape2)
 theme_set(theme_bw())
 
-# melt data 
-melt.df <-melt(reemployed, id.vars = "w_class")
+melt.df <-melt(reemployed, id.vars = "w_class")   # melt data 
 
 ggplot(melt.df, aes(x = w_class, y = value, fill = variable)) + 
   geom_bar(stat = "identity") + 
@@ -24,5 +23,4 @@ ggplot(melt.df, aes(x = w_class, y = value, fill = variable)) +
   theme(legend.title = element_blank()) +
   theme(legend.spacing.x = unit(0.6,'cm')) +
   theme(plot.title = element_text(face = "bold")) + 
-  # flip legend 
-  guides(fill = guide_legend(reverse = TRUE))
+  guides(fill = guide_legend(reverse = TRUE))       # flip legend 
