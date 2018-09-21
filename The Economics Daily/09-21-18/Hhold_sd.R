@@ -1,4 +1,4 @@
-# TED: The Economics Daily (BLS) 09.20.18
+# TED: The Economics Daily (BLS) 09.21.18
 # Average annual expenditures of all consumer units, selected categories, 2015–2017
 # https://www.bls.gov/opub/ted/2018/household-spending-up-4-point-8-percent-in-2017.htm
 # Filename: hhold_sd.xlsx
