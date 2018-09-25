@@ -1,5 +1,7 @@
+# TED: The Economics Daily (BLS) 09.25.18
 # Labor force participation rate of the civilian noninstitutional population by detailed Hispanic or Latino ethnicity, 2017 annual averages
 # https://www.bls.gov/opub/ted/2018/labor-force-participation-rate-of-hispanics-at-66-point-1-percent-in-2017.htm
+# Filename: latinolabp.xlsx
 
 library(ggplot2)
 theme_set(theme_bw())
