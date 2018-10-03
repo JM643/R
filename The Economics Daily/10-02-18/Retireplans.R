@@ -1,3 +1,8 @@
+# TED: The Economics Daily (BLS) 10.02.18
+# Retirement benefits access rates, private industry workers, March 2018
+# https://www.bls.gov/opub/ted/2018/51-percent-of-private-industry-workers-had-access-to-only-defined-contribution-retirement-plans-march-2018.htm
+# Filename: retireplans.xlsx
+
 library(ggplot2)
 library(reshape2)
 library(scales)
