@@ -1,3 +1,8 @@
+# TED: The Economics Daily (BLS) 10.05.18
+# Percent change in household spending by race and Hispanic or Latino ethnicity, 2007 to 2017 annual averages
+# https://www.bls.gov/opub/ted/2018/hispanic-or-latino-households-more-than-double-spending-on-education-from-2007-to-2017.htm
+# Filename: educ.xlsx
+
 library(ggplot2)
 library(reshape2)
 theme_set(theme_bw())
