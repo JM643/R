@@ -1,9 +1,14 @@
+# TED: The Economics Daily (BLS) 10.10.18
+# 12-month change in nonfarm payroll employment, by industry, September 2018, seasonally adjusted
+# https://www.bls.gov/opub/ted/2018/employment-up-560000-in-professional-and-business-services-over-the-year-ended-september-2018.htm
+# Filename: nonfarmpay.xlsx
+
 library(ggplot2)
 theme_set(theme_bw())
 
 # new data frame; removes first row from Excel spreadsheet
-nonfarm <- data.frame(industry = yrnonfarmpay$industry[2:18], n_employ = yrnonfarmpay$year_employ[2:18],
-                      p_employ = yrnonfarmpay$year_perc_employ[2:18])
+nonfarm <- data.frame(industry = nonfarmpay$industry[2:18], n_employ = nonfarmpay$year_employ[2:18],
+                      p_employ = nonfarmpay$year_perc_employ[2:18])
 nonfarm$industry <- factor(nonfarm$industry, levels = nonfarm$industry)
 
 ggplot(nonfarm, aes(n_employ, p_employ, color = industry)) + 
