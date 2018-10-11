@@ -13,6 +13,8 @@ nonfarm$industry <- factor(nonfarm$industry, levels = nonfarm$industry)
 
 ggplot(nonfarm, aes(n_employ, p_employ, color = industry)) + 
   geom_point(aes(color = industry), size = 2.5) + 
+  geom_vline(xintercept = 0) +
+  geom_hline(yintercept = 0) +
   labs(title = "12-month change in nonfarm payroll employment, by industry, September 2018, seasonally adjusted",
        x = "12-month change in employment",
        y = "12-month percent change in employment",
