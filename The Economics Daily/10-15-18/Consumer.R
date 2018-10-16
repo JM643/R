@@ -28,7 +28,7 @@ ggplot() +
   geom_line(data = consumer, aes(x = ID, y = shelter, color = "line15")) + 
   geom_line(data = consumer, aes(x = ID, y = med_care, color = "line16")) + 
   geom_line(data = consumer, aes(x = ID, y = edu_comm, color = "line17")) + 
-  labs(title = "12-month percentage change, Consumer Price Index, selected categories,\nnot seasonally adjusted",
+  labs(title = "12-month percentage change, Consumer Price Index, selected categories, not seasonally adjusted",
        caption = "Source: U.S. Bureau of Labor Statisitics",
        x = "",
        y = "") + 
