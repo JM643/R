@@ -7,7 +7,7 @@ library(tidyverse)
 library(readxl)
 theme_set(theme_bw())
 
-jobratio <- read_excel("Desktop/unemplyratio.xlsx") # import Excel data 
+jobratio <- read_excel("Data/unemplyratio.xlsx") # import Excel data 
 
 ratio <- rename(jobratio, jobratio = `Number of unemployed persons per job opening`) # rename variable
 ratio <- rename(ratio, month = Month) # rename "Month" variable
