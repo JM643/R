@@ -30,6 +30,6 @@ ggplot() +
        caption = "Source: U.S. Bureau of Labor Statistics
                   Shaded area represents recession as determined by the National Bureau of Economic Research.\n") +
   theme(plot.title = element_text(face = "bold")) + 
-  scale_x_continuous(breaks = c(1, 37, 73, 109, 154, 181),
+  scale_x_continuous(breaks = c(1, 37, 73, 109, 145, 181),
                      labels = c("Sep 2003", "Sep 2006", "Sep 2009", "Sep 2012", "Sep 2015", "Sep 2018")) + 
   ggsave("jobratio.png", height = 8.5 , width = 11)
