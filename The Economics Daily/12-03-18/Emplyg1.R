@@ -1,6 +1,6 @@
 
 # TED: The Economics Daily (BLS) 12.03.18
-# Top metropolitan employment gains and losses, October 2017 to October 2018
+# Top metropolitan employment gains and losses, October 2017 to October 2018 (Employment Change)
 # https://www.bls.gov/opub/ted/2018/top-metropolitan-employment-gains-and-losses-october-2017-to-october-2018.htm
 # Filename: N/A
 
