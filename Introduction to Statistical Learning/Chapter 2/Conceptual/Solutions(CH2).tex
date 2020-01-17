@@ -1,5 +1,8 @@
 \documentclass{article}
 
+\usepackage{tikz}
+\usetikzlibrary{shapes.misc}
+
 
 \title{Chapter 2.4 Exercise Solutions}
 \author{Jason Moreau}
@@ -68,6 +71,29 @@ Y = \textit{f}(X) + $\epsilon$
 A disadvantage of a parametric approach is that it might not allow the analyst to pick the right model to obtain the true value of \textit{f}.
 
 \subsection*{Question 7a.}
+In the dataset provided we are to make a prediction for Y when X$_{1}$ = X$_{2}$ = X$_{3}$ = 0 using \textit{K}-nearest neighbors. \\ \\
+To find the Euclidean distance in two-dimensions when X = 0 we subtract each observation point by zero. \\ \\
+\textbf{Observation 1}: \\
+(0 - 0) = 0, (3 - 0) = 3, (0 - 0)  = 0 \\ \\
+We then square each of the differences to find the absolute value: \\ 
+(0)$^{2}$  = 0, (3)$^{2}$ = 9, (0)$^{2}$ = 0 \\ \\
+We then find the sum of the squares: 
+0 + 9 + 0 = 9 \\ \\
+Finally, we take the square root of the sum:
+$\sqrt{9}$ = 
+% Use this library -tikz to create a circle around final answer
+\begin{tikzpicture} [baseline=(char.base)]
+\node(char) [draw, shape=rounded rectangle] {3}; 
+\end{tikzpicture}
+\\ \\
+\textbf{Observation 2}: 2 \\
+\textbf{Observation 3}: 3.16 \\
+\textbf{Observation 4}: 2.23 \\
+\textbf{Observation 5}: 1.41 \\
+\textbf{Observation 6}: 1.73 \\ 
+
+
+
 
 
 
